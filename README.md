@@ -1,8 +1,8 @@
-# pydssat
-pydssat is a python project to run DSSAT47 model in python ,as well as creating/modification important files for DSSAT model.
+# Pydssat
+Pydssat es un proyecto realizado en python para ejecutar simulaciones, como bien crear/modificar importantes archivos para el modelo de simulacion de cultivos DSSAT
 __PAY ATTENTION__:This project works on ___WIN OS___ only with ___PYTHON3.6___.
 
-## Structure
+## Estructura
 This project is consist of utils, dssat and run_model.
 ### utils.py
 utils.py helps you to __BATCH__ create .cuX files with a specific format of input xlsx file.
