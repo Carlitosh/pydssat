@@ -1,15 +1,16 @@
 # Pydssat
 Pydssat es un proyecto realizado en python para ejecutar simulaciones, como bien crear/modificar importantes archivos para el modelo de simulacion de cultivos DSSAT
+
 __PAY ATTENTION__:This project works on ___WIN OS___ only with ___PYTHON3.6___.
 
 ## Estructura
-This project is consist of utils, dssat and run_model.
+Este proyecto consta de utils, dssat y run_model.
 ### utils.py
-utils.py helps you to __BATCH__ create .cuX files with a specific format of input xlsx file.
-It can due with different __crop type__ and different __fertilizer level__ 
-_(So far I've done only this part, whoever the command statements are very similar which must be easy for you to fulfil 😀)_
+utils.py le ayuda a __BATCH__ crear archivos .cuX con un formato específico de archivo xlsx de entrada.
+Puede deberse con diferentes __tipo de cultivo__ y diferente __nivel de fertilizante__
+_ (Hasta ahora solo he hecho esta parte, cualquiera que sea, las declaraciones de comando son muy similares)
 ### dssat.py
-dssat.py contains the DSSAT class which helps to run glue and dssat model with a single .X file
+dssat.py contiene la clase DSSAT que ayuda a ejecutar el modelo glue y dssat con un solo archivo .X
 ### run_model.py
 run_model.py makes us easier to use this project with command line.
 In this file, I set some default arguments for convenient._(If needed ,please change it manually ,I am a lazy guy...😀)_
